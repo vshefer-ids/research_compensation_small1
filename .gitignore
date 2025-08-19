@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Reports / exports ---
+*.html
+*.pdf
+
+# --- Tools / caches ---
+.playwright/
+playwright/.cache/
+dist/
+build/
+
+# --- IDE / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
